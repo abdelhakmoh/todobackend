@@ -3,7 +3,7 @@ from typing import Optional
 from . import schemas, service, models
 
 router = APIRouter(
-    prefix="/to-do-list",
+    prefix="/todolist",
     tags=["To-Do List"]
 )
 
